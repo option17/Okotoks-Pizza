@@ -1,0 +1,15 @@
+main{
+    align-self: start;
+}
+
+article{
+    display: grid;
+
+#main_image{
+    width: 60%;
+    height: 20vh;
+    place-self: center;
+    border-radius: 20px;  
+}
+
+}

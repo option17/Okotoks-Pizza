@@ -16,6 +16,20 @@ img {
   width: 100%;
 }
 
+main {
+  align-self: start;
+}
+
+article {
+  display: grid;
+}
+article #main_image {
+  width: 60%;
+  height: 20vh;
+  place-self: center;
+  border-radius: 20px;
+}
+
 header {
   display: grid;
   grid-auto-flow: column;
@@ -50,13 +64,13 @@ header #header_logo {
   overflow-y: hidden;
   font-size: 12px;
 }
-.header_button:hover .text1 {
+.header_button button:hover .text1 {
   opacity: 0;
 }
-.header_button:hover .text2 {
+.header_button button:hover .text2 {
   top: 50%;
 }
-.header_button:hover {
+.header_button button:hover {
   background-image: linear-gradient(-90deg, #00F260 0%, #0097AE 100%);
 }
 
