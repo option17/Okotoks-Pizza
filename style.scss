@@ -6,6 +6,7 @@ header{
     grid-auto-flow: column;
     align-self: start;
     width: 100%;
+    background-color: #c91a1a;
 
     #header_menu{
         align-self: center;
@@ -23,7 +24,7 @@ header{
 
   .header_button{
       justify-self: end;
-      background-color: white;
+    
 
     button{
         position: relative;

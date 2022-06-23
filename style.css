@@ -30,13 +30,20 @@ article h2 {
 article p {
   padding: 20px;
   font-size: 18px;
-  margin: 0 0 20px 0;
 }
 article #main_image {
-  width: 70%;
+  width: 90%;
   height: 20vh;
   place-self: center;
   border-radius: 0.5rem;
+  margin: 20px;
+}
+article a {
+  margin: 10px;
+  background-color: #c91a1a;
+  border-radius: 10px;
+  width: 40%;
+  height: 60%;
 }
 
 header {
@@ -44,6 +51,7 @@ header {
   grid-auto-flow: column;
   align-self: start;
   width: 100%;
+  background-color: #c91a1a;
 }
 header #header_menu {
   align-self: center;
@@ -59,7 +67,6 @@ header #header_logo {
 
 .header_button {
   justify-self: end;
-  background-color: white;
 }
 .header_button button {
   position: relative;
