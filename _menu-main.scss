@@ -1,8 +1,25 @@
+main{
+    display: grid;
+    grid-auto-flow: column;
+}
 .menu_items{
     display: grid;
-    grid-auto-flow: row;
-    place-self: center;
-    justify-self: center;
-    width: 80%;
+    grid-auto-flow: column;
+    background-image: url("https://images.unsplash.com/photo-1529543544282-ea669407fca3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cmVzdGFyYXVudCUyMGFwcGV0aXplcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 40vh;
+    min-width: 70vw;
+    justify-self: start;
+    align-self: start;
 
+    
+
+   
+}
+a{
+    align-self: end;
+    font-size: 20px;
+    color: white;
+    font-family: 'Anek Latin', sans-serif;
 }
