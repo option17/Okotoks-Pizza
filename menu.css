@@ -1,6 +1,13 @@
 main {
   display: grid;
-  grid-auto-flow: column;
+  grid-auto-flow: row;
+  align-self: start;
+  margin-top: 80px;
+}
+main h1 {
+  justify-self: center;
+  margin-bottom: 20px;
+  font-size: 48px;
 }
 
 .menu_items {
@@ -9,17 +16,23 @@ main {
   background-image: url("https://images.unsplash.com/photo-1529543544282-ea669407fca3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cmVzdGFyYXVudCUyMGFwcGV0aXplcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
   background-size: cover;
   background-repeat: no-repeat;
+  border-radius: 0.375rem;
   min-height: 40vh;
-  min-width: 70vw;
+  min-width: 90vw;
   justify-self: start;
   align-self: start;
+  margin-bottom: 20px;
 }
 
 a {
   align-self: end;
   font-size: 20px;
-  color: white;
   font-family: "Anek Latin", sans-serif;
+  color: white;
+  background-color: #c91a1a;
+  width: 24%;
+  border-radius: 0.375rem;
+  margin-bottom: 20px;
 }
 
 * {
@@ -38,6 +51,10 @@ body {
 
 img {
   width: 100%;
+}
+
+footer {
+  background-color: lightgray;
 }
 
 header {
