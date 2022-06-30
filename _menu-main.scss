@@ -3,18 +3,19 @@ main{
     grid-auto-flow: row;
     align-self: start;
     margin-top: 80px;
-
-    h1{
-        justify-self: center;
-        margin-bottom: 20px;
-        font-size: 48px
-    }
+}
+h1{
+    justify-self: center;
+    margin-bottom: 20px;
+    font-size: 48px;
+    color: #c91a1a;
+    
+    
 }
 
 .menu_items{
     display: grid;
-    grid-auto-flow: column;
-    background-image: url("https://images.unsplash.com/photo-1529543544282-ea669407fca3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cmVzdGFyYXVudCUyMGFwcGV0aXplcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"); 
+    grid-auto-flow: column; 
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 0.375rem;
@@ -34,7 +35,32 @@ a{
     font-family: 'Anek Latin', sans-serif;
     color: white;
     background-color: #c91a1a;
-    width: 24%;
+    width: 27%;
     border-radius: 0.375rem;
     margin-bottom: 20px;
+    text-decoration: none;
+}
+
+#appetizers_menu{
+    background-image: url("https://images.unsplash.com/photo-1529543544282-ea669407fca3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8cmVzdGFyYXVudCUyMGFwcGV0aXplcnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60");
+}
+
+#pizza_menu{
+    background-image: url("https://images.unsplash.com/photo-1593504049359-74330189a345?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cGl6emF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
+    background-position-y: -110px;
+}
+
+#pasta_menu{
+    background-image: url("https://images.unsplash.com/photo-1611270629569-8b357cb88da9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8cGFzdGF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
+    background-position-y: -90px;
+}
+
+#desserts_menu{
+    background-image: url("https://images.unsplash.com/photo-1551024506-0bccd828d307?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZGVzc2VydHN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
+    background-position-y: -90px;
+}
+
+#drinks_menu{
+    background-image: url("https://images.unsplash.com/photo-1596803244618-8dbee441d70b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHNvZGF8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60");
+    background-position-x: -70px;
 }
