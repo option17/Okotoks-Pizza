@@ -13,19 +13,35 @@
 </head>
 <body>
 <header>
-    <img id="header_menu" src="https://www.reshot.com/preview-assets/icons/D6U5PY3TJK/menu-D6U5PY3TJK.svg"
-         alt="Menu icon"> 
+    <div id="mobile_header">
+       
+        <input type="radio" name="menu" id="menu_open" class="menu_radio_button">
+        <input type="radio" name="menu" id="menu_close" class="menu_radio_button">
+       
+        <label for="menu_open">
+           
+            <img src="https://www.reshot.com/preview-assets/icons/D6U5PY3TJK/menu-D6U5PY3TJK.svg" alt="Open Menu Label" class="hoverable">
+        </label>
+
+        
+        <section id="mobile_menu">
+            <div id="menu_header">
+                <label for="menu_close">
+                    <img src="https://www.reshot.com/preview-assets/icons/D6U5PY3TJK/menu-D6U5PY3TJK.svg" alt="Exit Menu Label" class="hoverable">
+                </label>
+            </div>
+
+            <h2><a href="menu.html">Menu</a></h2>
+            <h2><a href="about_us.html">About Us</a></h2>
+            <h2><a href="index.html">Home Page</a></h2>
+        </section>
+    </div>
 
         <img id="header_logo" src="https://elevatedlearningacademy.instructure.com/courses/454/files/102592/preview" 
          alt="The restaraunt logo">
 
         <div class="header_button">
-            <a href="">
-          <button>
-              <span class="text1"><i class="fa-brands fa-opencart"></i> &nbsp;&nbsp;&nbsp;ORDER NOW</span>
-              <span class="text2">CLICK ME</span>
-          </button>
-           </a>
+            <p>Call  <a href="tel:(805)457-4922">(805)457-4922</a></p>
         </div>
 </header>
 
