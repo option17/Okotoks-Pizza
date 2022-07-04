@@ -2,7 +2,7 @@ main {
   display: grid;
   grid-auto-flow: row;
   align-self: start;
-  margin-top: 80px;
+  margin-top: 50px;
 }
 
 h1 {
