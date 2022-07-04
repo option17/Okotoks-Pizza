@@ -1,6 +1,10 @@
 main{
     display: grid;
     grid-auto-flow: row;
+
+    article{
+        display: grid;
+    }
     
 
     img{
@@ -26,18 +30,55 @@ main{
     }
     p{
         color: #8c8c8c;
-        margin-bottom: 41px;
+        margin-top: 20px;
+       
     }
     a{
         text-decoration: none;
+    }
+
+    .cost{
+        font-size: 18px;
+        color: black;
+        margin-bottom: 41px;
     }
    
     }
 
     .mapouter{
+        display: grid;
         place-self: center
         ;
+    }
+    .gmap_canvas{
+        justify-self: center;
     }
     #bottom_main{
         display: grid;
     }
+
+    @media only screen and (min-width:767px){
+        main{
+        img{
+            height: 600px;
+        }
+        h2{
+            font-size: 40px;
+        }
+        h4{
+            font-size: 30px;
+        }
+        p{
+            font-size: 26px;
+        }
+        .cost{
+            font-size: 22px;
+        }
+        iframe{
+            margin-top: 3vh;
+            width: 80vw;
+        }
+       
+        
+    }
+}

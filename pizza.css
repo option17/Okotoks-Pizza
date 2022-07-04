@@ -56,6 +56,25 @@ header #header_logo {
   align-self: center;
 }
 
+@media only screen and (min-width: 767px) {
+  header #header_logo {
+    width: 100px;
+    height: 100px;
+  }
+  header a {
+    font-size: 25px;
+  }
+  header p {
+    font-size: 23px;
+  }
+  header #mobile_header img {
+    width: 70px;
+    height: 70px;
+  }
+  header .header_button {
+    pointer-events: none;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -82,9 +101,17 @@ footer {
   background-color: lightgray;
 }
 
+@media only screen and (min-width: 767px) {
+  footer p {
+    font-size: 20px;
+  }
+}
 main {
   display: grid;
   grid-auto-flow: row;
+}
+main article {
+  display: grid;
 }
 main img {
   display: grid;
@@ -107,16 +134,48 @@ main h4 {
 }
 main p {
   color: #8c8c8c;
-  margin-bottom: 41px;
+  margin-top: 20px;
 }
 main a {
   text-decoration: none;
 }
+main .cost {
+  font-size: 18px;
+  color: black;
+  margin-bottom: 41px;
+}
 
 .mapouter {
+  display: grid;
   place-self: center;
+}
+
+.gmap_canvas {
+  justify-self: center;
 }
 
 #bottom_main {
   display: grid;
+}
+
+@media only screen and (min-width: 767px) {
+  main img {
+    height: 600px;
+  }
+  main h2 {
+    font-size: 40px;
+  }
+  main h4 {
+    font-size: 30px;
+  }
+  main p {
+    font-size: 26px;
+  }
+  main .cost {
+    font-size: 22px;
+  }
+  main iframe {
+    margin-top: 3vh;
+    width: 80vw;
+  }
 }/*# sourceMappingURL=pizza.css.map */

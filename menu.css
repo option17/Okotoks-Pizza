@@ -61,6 +61,35 @@ a {
   background-position-x: -70px;
 }
 
+@media only screen and (min-width: 767px) {
+  a {
+    font-size: 30px;
+  }
+
+  .menu_items {
+    min-height: 60vh;
+  }
+
+  #appetizers_menu {
+    background-position-y: -100px;
+  }
+
+  #pasta_menu {
+    background-position-y: -200px;
+  }
+
+  #pizza_menu {
+    background-position-y: -200px;
+  }
+
+  #desserts_menu {
+    background-position-y: -200px;
+  }
+
+  #drinks_menu {
+    background-position-x: -170px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -87,6 +116,11 @@ footer {
   background-color: lightgray;
 }
 
+@media only screen and (min-width: 767px) {
+  footer p {
+    font-size: 20px;
+  }
+}
 header {
   display: grid;
   grid-auto-flow: column;
@@ -143,4 +177,24 @@ header #header_logo {
 .header_button {
   justify-self: end;
   align-self: center;
+}
+
+@media only screen and (min-width: 767px) {
+  header #header_logo {
+    width: 100px;
+    height: 100px;
+  }
+  header a {
+    font-size: 25px;
+  }
+  header p {
+    font-size: 23px;
+  }
+  header #mobile_header img {
+    width: 70px;
+    height: 70px;
+  }
+  header .header_button {
+    pointer-events: none;
+  }
 }/*# sourceMappingURL=menu.css.map */

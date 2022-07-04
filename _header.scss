@@ -74,4 +74,28 @@ header{
     
     }
   
-   
+    @media only screen and (min-width:767px){
+
+        header{
+
+        #header_logo{
+            width: 100px;
+            height: 100px;
+
+        }
+
+        a{
+            font-size: 25px;
+        }
+        p{
+            font-size: 23px;
+        }
+        #mobile_header img {
+            width: 70px;
+            height: 70px;
+        }
+        .header_button{
+            pointer-events: none;
+        }
+    }
+}

@@ -65,4 +65,29 @@ a{
     background-position-x: -70px;
 }
 
+@media only screen and (min-width:767px){
+    a{
+        font-size: 30px;
+    }
+    .menu_items{
+        min-height: 60vh;
+    }
+    #appetizers_menu{
+        background-position-y: -100px;
+    }
+    #pasta_menu{
+        background-position-y: -200px;
+    }
 
+    #pizza_menu{
+        background-position-y: -200px;
+    }
+
+    #desserts_menu{
+        background-position-y: -200px;
+    }
+    #drinks_menu{
+        background-position-x: -170px;
+    }
+
+}
