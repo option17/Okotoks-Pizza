@@ -90,6 +90,44 @@ a {
     background-position-x: -170px;
   }
 }
+@media only screen and (min-width: 928px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -moz-column-gap: 20px;
+         column-gap: 20px;
+  }
+  main h1 {
+    align-self: center;
+    background-image: url("https://images.unsplash.com/photo-1489564239502-7a532064e1c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8dGFraW5nJTIwYSUyMHBpenphJTIwb3V0fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.375rem;
+    min-height: 50vh;
+    min-width: 40vw;
+    justify-self: start;
+    margin-bottom: 20px;
+  }
+  main .menu_items {
+    min-height: 50vh;
+    min-width: 40vw;
+  }
+  main #appetizers_menu {
+    background-position-y: -250px;
+  }
+  main #pasta_menu {
+    background-position-y: -250px;
+  }
+  main #pizza_menu {
+    background-position-y: -350px;
+  }
+  main #desserts_menu {
+    background-position-y: -300px;
+  }
+  main #drinks_menu {
+    background-position-x: 0px;
+  }
+}
 * {
   margin: 0;
   padding: 0;
