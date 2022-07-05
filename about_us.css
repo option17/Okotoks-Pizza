@@ -99,11 +99,17 @@ iframe {
 
 footer {
   background-color: lightgray;
+  text-align: center;
 }
 
 @media only screen and (min-width: 767px) {
   footer p {
     font-size: 20px;
+  }
+}
+@media only screen and (min-width: 928px) {
+  footer {
+    width: 100%;
   }
 }
 main {
@@ -177,5 +183,40 @@ main .cost {
   main iframe {
     margin-top: 3vh;
     width: 80vw;
+  }
+}
+@media only screen and (min-width: 928px) {
+  main section {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  main .even_sections {
+    grid-template-columns: 1fr 1fr;
+  }
+  main iframe {
+    height: 50vh;
+  }
+  main p {
+    text-align: center;
+  }
+  main img {
+    height: 800px;
+    width: 80%;
+    margin-top: 5%;
+  }
+  main h2 {
+    text-align: center;
+  }
+  main h4 {
+    text-align: center;
+  }
+  main #soda_img {
+    height: 600px;
+    width: 40%;
+  }
+  main .main_imgs {
+    width: 40%;
+    height: 600px;
   }
 }/*# sourceMappingURL=about_us.css.map */

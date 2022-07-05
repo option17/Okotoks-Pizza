@@ -59,17 +59,13 @@ main #main_article2 h1 {
   margin-top: 15%;
 }
 main #main_article2 img {
-  margin-top: 15%;
   width: 80%;
   justify-self: center;
   border-radius: 10px;
 }
 main #main_article2 p {
+  margin-top: 15%;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-main #main_article2 .footer {
-  padding: 5px;
-  background-color: #c91a1a;
 }
 main #main_article2 #bottom {
   margin-bottom: 50px;
@@ -90,13 +86,63 @@ main #main_article2 #bottom {
     font-size: 20px;
   }
 }
+@media only screen and (min-width: 928px) {
+  main section {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 1fr 1fr;
+  }
+  main section div {
+    align-self: center;
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5a37f1ac7131a5daca31ef98/1513875617673-9H44OLA837FLS7NET32A/newcover-photoshopped.jpg?format=2500w");
+    background-size: inherit;
+    background-repeat: no-repeat;
+    border-radius: 0.375rem;
+    background-position-x: -700px;
+    background-position-y: -120px;
+    height: 40vh;
+  }
+  main section div h2 {
+    font-family: cursive;
+    color: white;
+  }
+  main section div p {
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    opacity: 0.8;
+    margin-bottom: 5%;
+  }
+  main #main_article2 p {
+    margin-top: 5%;
+    background-color: #c91a1a;
+    border-radius: 10px;
+    width: 60%;
+    text-align: center;
+    justify-self: center;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 2%;
+  }
+  main #main_article2 img {
+    height: 500px;
+    width: 40%;
+    margin-bottom: 10%;
+  }
+}
 footer {
   background-color: lightgray;
+  text-align: center;
 }
 
 @media only screen and (min-width: 767px) {
   footer p {
     font-size: 20px;
+  }
+}
+@media only screen and (min-width: 928px) {
+  footer {
+    width: 100%;
   }
 }
 header {

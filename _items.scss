@@ -84,7 +84,43 @@ main{
 }
 
 @media only screen and (min-width:928px){
+
     main{
-      
+
+        section{
+            display: grid;
+            grid-auto-flow: column;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        .even_sections{
+            grid-template-columns: 1fr 1fr;
+        }
+        
+      iframe{
+          height: 50vh;
+      }
+
+      p{
+          text-align: center;
+      }
+      img{
+          height: 800px;
+          width: 80%;
+          margin-top: 5%;
+      }
+      h2{
+          text-align: center;
+      }
+      h4{
+          text-align: center;
+      }
+      #soda_img{
+          height: 600px;
+          width: 40%;
+      }
+      .main_imgs{
+          width: 40%;
+          height: 600px;
+      }
     }
 }
